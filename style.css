@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  height: 400px;
+  width: 250px;
+  max-height: 600px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 14px;
+}
+
+#title {
+  font-size: large;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+#subtitle {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d889e;
+  margin-top: 20px;
+}
+
+.qrContainer {
+  height: 220px;
+  width: 220px;
+  padding-top: 16px;
+}
+
+.qrContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.textContainer {
+  padding: 0 14px 0 14px;
+}
